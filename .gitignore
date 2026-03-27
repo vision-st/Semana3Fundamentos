@@ -1,0 +1,59 @@
+# --- Java ---
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# --- Directorios de Compilación ---
+# Ignora las salidas de compilación estándar
+bin/
+target/
+build/
+out/
+
+# --- Eclipse ---
+# Ignora archivos de configuración específicos de la instancia local
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+.loadpath
+.externalToolBuilders/
+*.launch
+.settings/
+.dependency-info/
+
+# --- Archivos de Proyecto de Eclipse ---
+# NOTA: Si usas Maven o Gradle, es mejor ignorar estos y que el 
+# desarrollador los genere al importar el proyecto ("Import as Existing Maven Project")
+.project
+.classpath
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.iws
+out/
+
+# --- VS Code ---
+.vscode/
+
+# --- Herramientas de Construcción (Build Tools) ---
+# Maven
+.m2/
+mvnw
+mvnw.cmd
+.mvn/
+
+# Gradle
+.gradle/
+gradlew
+gradlew.bat
+gradle/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
